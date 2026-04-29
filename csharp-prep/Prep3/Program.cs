@@ -15,11 +15,11 @@ class Program
             int guess = int.Parse(Console.ReadLine());
             if (guess > number)
             {
-                Console.Write("Your guess is too high. Try again");
+                Console.WriteLine("Your guess is too high. Try again");
             }
             if (guess < number)
             {
-                Console.Write("Your guess is too low. Try again");
+                Console.WriteLine("Your guess is too low. Try again");
             }
             if (guess == number)
             {
